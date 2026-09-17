@@ -1,0 +1,83 @@
+{
+  "customers": [
+    {
+      "id": "CUST001",
+      "name": "Ravi Kumar",
+      "phone": "+919876500001",
+      "current_plan": "199 - 1.5GB/day, 28 days",
+      "due_date": "2026-09-20",
+      "usage_type": "data-heavy",
+      "recharge_status": "pending",
+      "wallet_balance": 500,
+      "recommended_plan_id": "PLAN_349",
+      "recommended_plan_name": "349 - 2.5GB/day, 30 days",
+      "recommended_price": 349,
+      "recommend_reason": "matches your high daily data usage with extra validity"
+    },
+    {
+      "id": "CUST002",
+      "name": "Priya Sharma",
+      "phone": "+919876500002",
+      "current_plan": "155 - 1GB/day, 24 days",
+      "due_date": "2026-09-19",
+      "usage_type": "voice-heavy",
+      "recharge_status": "pending",
+      "wallet_balance": 150,
+      "recommended_plan_id": "PLAN_179",
+      "recommended_plan_name": "179 - Unlimited calls, 1GB/day, 26 days",
+      "recommended_price": 179,
+      "recommend_reason": "gives you unlimited calling which fits how you use your plan"
+    },
+    {
+      "id": "CUST003",
+      "name": "Ahmed Khan",
+      "phone": "+919876500003",
+      "current_plan": "299 - 2GB/day, 28 days",
+      "due_date": "2026-09-20",
+      "usage_type": "data-heavy",
+      "recharge_status": "pending",
+      "wallet_balance": 1000,
+      "recommended_plan_id": "PLAN_349",
+      "recommended_plan_name": "349 - 2.5GB/day, 30 days",
+      "recommended_price": 349,
+      "recommend_reason": "matches your high daily data usage with extra validity"
+    }
+  ],
+  "plans": [
+    {
+      "plan_id": "PLAN_99",
+      "plan_name": "99 - 1GB/day, 18 days",
+      "price": 99,
+      "validity_days": 18,
+      "best_for": "budget, light users who just want basic connectivity"
+    },
+    {
+      "plan_id": "PLAN_179",
+      "plan_name": "179 - Unlimited calls, 1GB/day, 26 days",
+      "price": 179,
+      "validity_days": 26,
+      "best_for": "customers who mainly use calling over data"
+    },
+    {
+      "plan_id": "PLAN_239",
+      "plan_name": "239 - 1.5GB/day, 28 days",
+      "price": 239,
+      "validity_days": 28,
+      "best_for": "balanced everyday use"
+    },
+    {
+      "plan_id": "PLAN_349",
+      "plan_name": "349 - 2.5GB/day, 30 days",
+      "price": 349,
+      "validity_days": 30,
+      "best_for": "heavy daily data users"
+    },
+    {
+      "plan_id": "PLAN_449",
+      "plan_name": "449 - 3GB/day, 56 days + OTT apps, 84 days",
+      "price": 449,
+      "validity_days": 84,
+      "best_for": "customers who want longer validity plus streaming app access"
+    }
+  ]
+}
